@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.naveg{
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+h1{
+    height: 150px;
+    width: 100%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.788);
+    font: normal bold 90px Hezaedrus;
+    text-align: center;
+    line-height: 80px;
+}
+h2{
+    color: white;
+    font: normal bold 17px Arial;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+h3{
+    color: white;
+    font: normal normal 15px Arial;
+}
+h4{
+    color: white;
+    font: normal bolder 22px Arial;
+    text-transform: uppercase;
+}
+#habilidades{
+    width: auto;
+    font-size: 80px;
+    height: auto;
+}
+.quadrosH{
+    text-align: center;
+}
+#logoEspecial{
+    width: 250px;
+    margin-top: 60px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+#mais{
+    font-size: 60px;
+    margin-top: -30px;
+}
+#sobre{
+    width: max-content;
+    height: auto;
+    font-size: 80px;
+}
+ul{
+    margin-left: 0px;
+    margin-top: 50px;
+    color: rgb(224, 224, 224);
+    font: normal normal 25px Arial;
+    line-height: 35px;
+}
+li{
+    padding: 25px 25px 25px 0px;
+}
+#tituloPort{
+    width: auto;
+    height: auto;
+    font-size: 70px;
+}
+.subPort{
+    font-size: 25px;
+}
+.pc{
+    width: 350px;
+    height: 230px;
+}
+.bttVoltar{
+    height: 60px;
+    width: 70px;
+}
+.textVoltar{
+    color: white;
+    text-transform: uppercase;
+    font: normal normal 20px Arial;
+}
+#iconeWhats{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+input{
+    font: normal bold 25px Arial;
+    height: 40px;
+    padding-left: 40px;
+    margin-left: 10px;
+    background-color: #26d326;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+.entrarContato{
+    position: absolute;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+#insta, #git, .pc, input, #iconeWhats{
+    cursor: pointer;
+}

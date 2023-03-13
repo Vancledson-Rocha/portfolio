@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Hezaedrus;
+    src: url(./src/fonts/Hezaedrus-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: Merienda;
+    src: url(src/fonts/MeriendaOne-Regular.ttf) format('truetype');
+}
+* {
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000522;
+}
+nav{
+    display: flex;
+    height: 70px;
+    float: right;
+    margin-right: 20px;
+}
+nav > a{
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    width: 85%;
+    margin: auto;
+    opacity: 0.4;
+}
+.inicio{
+    display: flex;
+}
+.conteudo01{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.iconesHabilidades{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.conteudoSobre{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.portfolio{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.fileiras{
+    display: flex;
+    justify-content: space-around;
+}
+.itens{
+    position: relative;
+    width: max-content;
+    padding: 30px;
+}
+.moldeCell{
+    position: absolute;
+    height: 170px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+}
+.moldePc{
+    height: 200px;
+    width: 350px;
+    border-radius: 30px;
+}
+.iconesRedes{
+    margin: 10px;
+    width: 300px;
+}
+.voltar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    margin: 140px auto -50px auto;
+    cursor: pointer;
+}
+footer{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fraseImpacto{
+    margin: 150px auto;
+    color: #ffe078;
+    font-family: Merienda;
+    font-size: 30px;
+    text-transform: none;
+}
+#fundo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+#fundo02{
+    position: absolute;
+    margin-top: 350px;
+    right: 50px;
+    border-radius: 30px;
+}
+#fundo03{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    opacity: 0.8;
+}
+#fraseFinal{
+    width: 80%;
+    position: absolute;
+    margin: 30px 120px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+#perfil{
+    margin: 0px 50px;
+    border-radius: 30px;
+}
+
